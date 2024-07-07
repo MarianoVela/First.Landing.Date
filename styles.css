@@ -371,3 +371,14 @@ body {
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 630px) {
+  .apple,
+  .google {
+    max-width: 100px;
+  }
+
+  .redes {
+    flex-wrap: wrap;
+  }
+}
