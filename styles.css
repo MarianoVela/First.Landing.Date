@@ -17,10 +17,11 @@ body {
 .inicio {
   display: flex;
   padding: 40px;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
   text-align: center;
-  max-width: 1600px;
+  max-width: 1000px;
   color: transparent;
   background: #f12711; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -54,10 +55,9 @@ body {
     #ffffff,
     #ffefba
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   background-clip: text;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   text-align: center;
   font-weight: 1200;
@@ -68,7 +68,9 @@ body {
   display: flex;
   max-width: 1600px;
   justify-content: center;
+  align-items: center;
   padding: 30px;
+  margin: 0 auto;
   gap: 40px;
 }
 
@@ -150,6 +152,7 @@ body {
   box-shadow: -1px -14px 31px 6px rgba(255, 94, 94, 0.69);
   -webkit-box-shadow: -1px -14px 31px 6px rgba(255, 94, 94, 0.69);
   -moz-box-shadow: -1px -14px 31px 6px rgba(255, 94, 94, 0.69);
+  margin: 0 auto;
 }
 
 .tarjetas {
